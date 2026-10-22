@@ -1,12 +1,11 @@
-# azure-cloud-security-journey
-[README.md](https://github.com/user-attachments/files/33800382/README.md)
+[README.md](https://github.com/user-attachments/files/33800462/README.md)
 # Azure Cloud Security Journey ☁️🛡️
 
 **Hands-on portfolio | Azure networking, identity, security engineering, and incident response**
 
 This repository documents my progression toward cloud security engineering through practical Microsoft Azure labs. Each lab records the objective, architecture, configuration, security rationale, validation, and lessons learned.
 
-> **Lab environment:** Personal Azure subscription using a dedicated training resource group. All resources and IP addresses shown here are for learning; no production systems or sensitive credentials are included.
+> **Lab environment:** Personal Azure subscription using a dedicated training resource group. Screenshots are from the training lab; visible account identifiers have been minimized. Review every image before publishing.
 
 ## Learning goals
 
@@ -66,11 +65,17 @@ Microsoft Entra tenant: Rosetta Stone (personal lab)
 
 ### Evidence
 
-Add sanitized screenshots to `screenshots/mission-001/` and link them here:
+**Resource group created**
 
-- `resource-group.png` — Resource group listing
-- `subnets.png` — VNet address space and subnet configuration
-- `deployment-success.png` — Successful VNet deployment
+![Resource group listing showing RG-CloudSecurity-Lab](screenshots/mission-001/resource-group.png)
+
+**VNet and two subnets configured**
+
+![VNet address space with default and Subnet-App subnets](screenshots/mission-001/subnets.png)
+
+**Successful deployment**
+
+![Azure virtual network deployment completed](screenshots/mission-001/deployment-success.png)
 
 ## Mission 002 — Network Security Group configuration
 
@@ -99,11 +104,25 @@ NSGs are **stateful**, meaning return traffic for permitted connections is handl
 
 ### Evidence
 
-Add sanitized screenshots to `screenshots/mission-002/`:
+**Default inbound rules reviewed**
 
-- `inbound-rule.png` — Inbound deny rule
-- `outbound-rule.png` — Outbound deny rule
-- `subnet-association.png` — NSG associated with `Subnet-App`
+![NSG default inbound rules](screenshots/mission-002/default-inbound-rules.png)
+
+**Inbound deny rule — source and destination**
+
+![Inbound deny rule configuration](screenshots/mission-002/inbound-rule.png)
+
+**Outbound deny rule — source and destination**
+
+![Outbound deny rule source and destination](screenshots/mission-002/outbound-rule-source.png)
+
+**Outbound deny rule — action, priority, and name**
+
+![Outbound deny rule action and priority](screenshots/mission-002/outbound-rule-action.png)
+
+**NSG subnet association**
+
+![NSG associated with Subnet-App](screenshots/mission-002/subnet-association.png)
 
 ## Mission 003 — Security control validation
 
@@ -191,7 +210,7 @@ azure-cloud-security-journey/
 ├── screenshots/
 │   ├── mission-001/
 │   ├── mission-002/
-│   └── mission-003/
+│   └── mission-003/ (future evidence)
 └── labs/
     └── README.md
 ```
