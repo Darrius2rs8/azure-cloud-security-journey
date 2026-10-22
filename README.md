@@ -1,12 +1,3 @@
-<img width="1002" height="677" alt="deployment-success" src="https://github.com/user-attachments/assets/433b11a8-7f1f-4bc7-8877-7da4483ad708" />
-<img width="1037" height="615" alt="subnets" src="https://github.com/user-attachments/assets/5b481752-2ae6-44a9-81b8-ce628141f71a" />
-<img width="736" height="260" alt="resource-group" src="https://github.com/user-attachments/assets/31d384b1-6227-4eb2-b3ab-f41b8fa0d5c3" />
-<img width="778" height="617" alt="default-inbound-rules" src="https://github.com/user-attachments/assets/b9d88668-8881-40a5-ad17-659e1a424c76" />
-<img width="738" height="812" alt="outbound-rule-source" src="https://github.com/user-attachments/assets/7c939247-545a-44f2-9421-149c2dfbc680" />
-<img width="738" height="760" alt="inbound-rule" src="https://github.com/user-attachments/assets/e499f6a1-9d5f-40ed-a022-42b7ff2c2ec2" />
-<img width="730" height="827" alt="outbound-rule-action" src="https://github.com/user-attachments/assets/482d310a-b61d-4b4e-9448-a09ec40942be" />
-<img width="865" height="292" alt="subnet-association" src="https://github.com/user-attachments/assets/3e75fda5-b086-4bbf-ac7a-24365f26156a" />
-[README.md](https://github.com/user-attachments/files/33800462/README.md)
 # Azure Cloud Security Journey ☁️🛡️
 
 **Hands-on portfolio | Azure networking, identity, security engineering, and incident response**
